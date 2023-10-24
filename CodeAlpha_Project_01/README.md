@@ -29,8 +29,7 @@ This is a simple and beautiful website with authentication, an "About" page, and
 - `index.html`: Home page HTML file.
 - `about.html`: About page HTML file.
 - `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for functionality.
-- `images/`: Folder containing images used in the website.
+- `form.js`: JavaScript file for functionality.
 
 ## Styling
 
