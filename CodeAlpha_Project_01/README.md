@@ -1,4 +1,4 @@
-# Beautiful Website
+# Landing Page 
 
 This is a simple and beautiful website with authentication, an "About" page, and a home page with blogs.
 
