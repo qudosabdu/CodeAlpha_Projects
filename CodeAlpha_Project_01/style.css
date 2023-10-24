@@ -1,0 +1,351 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 30px auto 30px;
+    text-align: center;
+    padding: 30px 60px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .form input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .form button:hover {
+    background-color: #45a049;
+  }
+  
+  .form button:focus {
+    outline: none;
+  }
+  
+  .form button:active {
+    background-color: #3e8e41;
+  }
+  
+  .form input:focus,
+  .form button:focus {
+    border-color: #4CAF50;
+  }
+  
+  .form input::placeholder {
+    color: #aaa;
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form input[type="text"]:focus,
+  .form input[type="password"]:focus {
+    border-color: #4CAF50;
+  }
+  
+  .form input[type="text"]::placeholder,
+  .form input[type="password"]::placeholder {
+    color: #ccc;
+  }
+  
+  .form input[type="text"]::-webkit-input-placeholder,
+  .form input[type="password"]::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  
+  .form input[type="text"]::-moz-placeholder,
+  .form input[type="password"]::-moz-placeholder {
+    color: #ccc;
+  }
+  
+  .form input[type="text"]:-ms-input-placeholder,
+  .form input[type="password"]:-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #ff9900;
+  }
+  
+  .logo {
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  #nav-username {
+    margin: 0 10px;
+  }
+  
+
+  #logout {
+    background-color: #ff4444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s; 
+  }
+  
+  #logout i {
+    margin-right: 5px;
+  }
+  
+  #logout:hover {
+    background-color: #cc0000;
+  }
+  
+
+section {
+    padding: 80px;
+
+
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    max-width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-info, .social-links {
+    flex: 1;
+    max-width: 300px;
+}
+
+.contact-info h3, .social-links h3 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact-info p, .social-links a {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #aaaaaa;
+}
+
+
+#login {
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    nav ul {
+        display: flex !important; /* Ensure that the navigation links are displayed */
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333333;
+        transition: transform 0.3s ease-in-out;
+        transform: scaleY(0);
+        transform-origin: top;
+        z-index: -1;
+    }
+
+    nav.active ul {
+        transform: scaleY(1);
+        z-index: 1;
+    }
+
+    nav.active ul li {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        display: block;
+    }
+
+    nav li {
+        margin: 10px 0;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        display: none;
+    }
+
+    nav li.active {
+        display: block;
+    }
+
+    nav a {
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .menu-icon.active {
+        color: #ff9900;
+    }
+}
